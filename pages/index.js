@@ -34,13 +34,15 @@ export async function getStaticProps() {
   };
 }
 
-// export async function getServerSideProps() {
-//   const res = await fetch(`${API_URL}/api/events`);
-//   const events = await res.json();
+/*
+export async function getServerSideProps() {
+  const res = await fetch(`${API_URL}/api/events`);
+  const events = await res.json();
 
-//   // console.log(events); // This will log in terminal coz this runs in server
+  // console.log(events); // This will log in terminal coz this runs in server
 
-//   return {
-//     props: { events },
-//   };
-// }
+  return {
+    props: { events },
+  };
+}
+*/

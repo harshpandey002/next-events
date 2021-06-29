@@ -13,8 +13,6 @@ function ImageUpload({ evtId, imageUploaded }) {
     formData.append("refId", evtId);
     formData.append("field", "image");
 
-    console.log(formData);
-
     const res = await fetch(`${API_URL}/upload`, {
       method: "POST",
       body: formData,

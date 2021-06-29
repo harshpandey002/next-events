@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "@/styles/search.module.css";
+import styles from "@/styles/Search.module.css";
 import { useRouter } from "next/router";
 
 function Search() {

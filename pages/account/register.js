@@ -77,7 +77,7 @@ function registerPage() {
         </form>
 
         <p>
-          Already have an account? <Link href="/accounts/login">Login</Link>{" "}
+          Already have an account? <Link href="/account/login">Login</Link>{" "}
         </p>
       </div>
     </Layout>

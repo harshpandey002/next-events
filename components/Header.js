@@ -49,7 +49,7 @@ function Header() {
           ) : (
             <>
               <li>
-                <Link href="/accounts/login">
+                <Link href="/account/login">
                   <a className="btn-secondary btn-icon">
                     {" "}
                     <FaSignInAlt /> Login
